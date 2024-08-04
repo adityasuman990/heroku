@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Access environment variables
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const message = process.env.MESSAGE || 'Hello, World!';
 
 app.get('/', (req, res) => {
